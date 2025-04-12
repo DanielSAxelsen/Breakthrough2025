@@ -114,7 +114,7 @@ export default function ProgramTimeline() {
                         className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
                       />
                       <img
-                        src="/Legoset2.jpg"
+                        src="/LegoSet2.jpg"
                         alt="Lego Set 2"
                         className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
                       />
