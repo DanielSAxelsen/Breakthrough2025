@@ -19,14 +19,7 @@ model RSVP {
   firstName           String
   lastName            String
   email               String   @unique
-  guests              String[] @default([])
-  attendingCeremony   Boolean
-  attendingReception  Boolean
   foodRestrictions    String?
-  songRequest         String?
-  extraInformation    String?
-  message             String?
-  needsRide           String?
-  interestedInStaying String?
+  bonusQuestion       String?
   createdAt           DateTime @default(now())
 }

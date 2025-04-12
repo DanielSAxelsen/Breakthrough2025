@@ -8,9 +8,8 @@ const Page = () => {
   return (
     <div>
       <Hero
-        title={t("rsvp")}
-        media="/rsvp_hero.jpeg"
-        mediaType="image"
+        media="/LaunchTeaser.mp4"
+        mediaType="video"
         className="h-[700px]"
       />
 

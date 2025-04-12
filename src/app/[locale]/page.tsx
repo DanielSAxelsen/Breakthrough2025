@@ -27,6 +27,14 @@ export default function Home() {
         src: "/our_program_2.png",
       },
     },
+    {
+      title: t("program.timeline.post_post_wedding.title"),
+      description: t.raw("program.timeline.post_post_wedding.description"),
+      image: {
+        alt: "Post-wedding events",
+        src: "/our_program_3.jpg",
+      },
+    },
   ];
 
   return (

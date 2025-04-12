@@ -6,7 +6,7 @@ import { ButtonType } from "@/types";
 
 interface HeroProps {
   media: string;
-  title: string;
+  title?: string;
   subtitle?: string;
   toptitle?: string;
   button?: ButtonType;

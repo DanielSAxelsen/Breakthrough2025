@@ -16,6 +16,7 @@
         "add_guest": "Add Guest",
         "food_restrictions_dietary_restrictions": "Any dietary preferences/allergies?",
         "food_restrictions_comment": "All food will be plant-based and non-alcoholic (UPDATE THIS)",
+        "bonus_question": "What is your favorite LEGO set? (UPDATE THIS)",
         "submit": "Submit",
         "continue": "Continue",
         "submitting": "Submitting...",
@@ -141,6 +142,56 @@
             "thank_you": "Thank you for your love and generosity—it means the world to us!",
             "button": "Contribute to Our Honeymoon Fund",
             "tbd": "More info coming soon!"
+        },
+        "program": {
+            "title": "Program",
+            "schedule": {
+                "breakfast": {
+                    "time": "9:30",
+                    "title": "Breakfast & Catch-up",
+                    "description": "For the coffee lovers, the slow risers, and the morning-fresh—buns, tea, and good company await the early birds."
+                },
+                "kickoff": {
+                    "time": "10:00",
+                    "title": "Kick-off & Welcome",
+                    "description": "This is where it all begins—so don't be late! We'll set the tone for a fun and engaging day with a bit of teambuilding to get everyone connected."
+                },
+                "presentation": {
+                    "time": "10:15",
+                    "title": "Victor Winsteén: Lean – The Industry's Answer to Efficiency & Teamwork",
+                    "description": "Lean isn't just a corporate mantra—it's a mindset that empowers teams to solve problems together and drive continuous improvement. With hands-on experience optimizing production at Novo Nordisk, Victor brings a fresh and engaging perspective on how Lean principles can boost business performance and even apply to everyday life."
+                },
+                "workshop1": {
+                    "time": "11:00",
+                    "title": "Workshop: Welcome to the LEGO Factory",
+                    "description": "Time to build, improve, and repeat. Experience continuous improvement through hands-on challenges that bring Lean principles to life."
+                },
+                "lunch": {
+                    "time": "12:00",
+                    "title": "Lunch & Free Building",
+                    "description": "Refuel with a tasty lunch and explore the LEGO sets at your own pace. Whether you're building something bold or just playing around—this is your creative space."
+                },
+                "workshop2": {
+                    "time": "13:30",
+                    "title": "Workshop: Teamwork Unplugged – The Deep Dive",
+                    "description": "This is the experimental part of the day. Together, we'll explore what makes great teamwork tick—through open conversation, reflection, and shared observations."
+                },
+                "freeBuilding": {
+                    "time": "14:00",
+                    "title": "Free Building / LEGO Team Exercises",
+                    "description": "The afternoon flows with the mood of the room. Keep building freely, or dive into exercises from the LEGO Events Toolbox—fun, hands-on activities designed to strengthen collaboration, creativity, and communication."
+                },
+                "closing": {
+                    "time": "15:30",
+                    "title": "Wrapping up",
+                    "description": "We'll close the program with key reflections, takeaways, and feedback from the day. But the fun doesn't have to end here..."
+                },
+                "afterParty": {
+                    "time": "16:00",
+                    "title": "After Party & Dinner",
+                    "description": "Beers, bricks, and good vibes. We'll move to a nearby venue to unwind together. And for those who'd like to join, we'll have dinner at Mantzius Restaurant at 18:00 after clean-up."
+                }
+            }
         }
     },
     "Countdown": {
@@ -158,4 +209,6 @@
         }
     }
 }
+
+
 

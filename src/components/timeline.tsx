@@ -94,7 +94,7 @@ const TimeLine = ({ timeline, className }: TimeLineProps) => {
   }, [inView]);
 
   return (
-    <div className={cn("relative space-y-7", className)}>
+    <div className={cn("relative space-y-12", className)}>
       <div
         ref={lineRef}
         style={{
