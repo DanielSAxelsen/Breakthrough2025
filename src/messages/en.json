@@ -1,0 +1,161 @@
+{
+    "NavBar": {
+        "our_story": "About",
+        "practical_info": "Program & Practical info",
+        "rsvp": "Sign Up"
+    },
+    "RsvpForm": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email",
+        "attending_ceremony_question": "Will you join us for the wedding ceremony? (UPDATE THIS)",
+        "attending_reception_question": "Will you join us for the reception dinner and dancing?",
+        "attending_yes": "Yes",
+        "attending_no": "No",
+        "guests_label": "Name of guests in your party (UPDATE THIS)",
+        "add_guest": "Add Guest",
+        "food_restrictions_dietary_restrictions": "Any dietary preferences/allergies?",
+        "food_restrictions_comment": "All food will be plant-based and non-alcoholic (UPDATE THIS)",
+        "submit": "Submit",
+        "continue": "Continue",
+        "submitting": "Submitting...",
+        "remove": "Remove",
+        "required": "Required",
+        "thank_you": "Thank you for Signing Up!",
+        "thank_you_message_description": "Please provide us with more information about your arrival: time of arrival, any special requests, etc. (UPDATE THIS)",
+        "song_request": "Song Request (UPDATE THIS)",
+        "song_request_info": "link or name of song (UPDATE THIS)",
+        "extra_information": "Extra Information (UPDATE THIS)",
+        "extra_information_info": "Anything else you'd like to tell us? (UPDATE THIS)",
+        "message": "Message to the couple (UPDATE THIS)",
+        "message_info": "leave a message for the couple (UPDATE THIS)",
+        "rsvp": "Sign Up",
+        "will_you_attend": "Will you attend our wedding? (UPDATE THIS)",
+        "please_rsvp_by": "50 spots are available",
+        "sorry_message": "We are sorry that you cannot make it to the event. See you next year!",
+        "leave_message": "Any comments for next year?",
+        "thank_you_info": "Thank you for providing your info.",
+        "confirmation_email": "You will now receive a confirmation email.",
+        "contact_us": "If you have any questions, don't hesitate to contact us at",
+        "validation": {
+            "first_name_required": "First name is required",
+            "last_name_required": "Last name is required",
+            "email_required": "Email is required",
+            "attending_ceremony_required": "Please indicate if you will attend the ceremony (UPDATE THIS)",
+            "attending_reception_required": "Please indicate if you will attend the reception (UPDATE THIS)"
+        },
+        "optional": "Optional",
+        "needs_ride_question": "Will you need a ride from and to the Frederiksværk train station? (UPDATE THIS)",
+        "needs_ride_yes": "Yes (UPDATE THIS)",
+        "needs_ride_no": "No (UPDATE THIS)",
+        "needs_ride_unsure": "Unsure but will let you know (UPDATE THIS)",
+        "interested_in_staying_question": "Are you joining the afterparty?",
+        "interested_in_staying_info": "For more information please write to Danielsaxelsen@gmail.com. (UPDATE THIS)",
+        "interested_in_staying_yes": "Yes",
+        "interested_in_staying_no": "No",
+        "interested_in_staying_unsure": "Unsure but will let you know"
+    },
+    "HomePage": {
+        "wedding_toptitle": "Build Lego, Improve Teamwork",
+        "wedding_title": "BRICKTHROUGH 2025",
+        "rsvp": "Sign Up",
+        "wedding_subtitle": "May 25, 2025, Sunday — Mantzius Culture Center",
+        "stories": {
+            "melike": {
+                "title": "Breakthrough's Beginning",
+                "story": "Breakthrough started as a spontaneous idea—part joke, part creative spark—but quickly grew into something meaningful. It became a platform to create unique experiences, built around yearly themes that challenge how we learn, reflect, and connect. From a cozy board game night to full-day workshops, each Breakthrough is designed to be fun, inspiring, and just a little bit different."
+            },
+            "jonas": {
+                "title": "What We Believe",
+                "story": "We think the small victories deserve a spotlight. While most celebrations honor birthdays or major milestones, Breakthrough focuses on the everyday wins—the personal projects, the tough lessons, the quiet growth. It’s a space to celebrate those moments, surrounded by people who are just as curious and reflective. We’re a community of learners who explore new ideas together. Each event blends play and purpose, mixing hands-on activities with meaningful takeaways. It’s a professional party—equal parts celebration and inspiration."
+            },
+            "our_story": {
+                "title": "How It Works",
+                "story": "Every year, we host one event with a new theme—something explorative, fun, and thoughtful. [This year's event] invites participants to engage, learn, and walk away with something valuable. We often feature an external expert or highlight someone from our own community to spark new ideas and conversations. Anyone is welcome—especially if you're open-minded, eager to learn, or just looking for a fresh way to celebrate growth."
+            }
+        },
+        "program": {
+            "title": "Previous Events",
+            "practical_info_button": "Sign Up!",
+            "timeline": {
+                "pre_wedding": {
+                    "title": "Breakthrough 2024: Project YOU",
+                    "description": "A day dedicated to personal projects—bringing people together to work on something meaningful instead of doing it alone.",
+                    "subtitle": "(See more information?) (UPDATE THIS)"
+                },
+                "post_wedding": {
+                    "title": "2023 – Reflect & Celebrate",
+                    "description": "A cozy end-of-year gathering where we took a moment to pause and look back. Each participant shared one thing they were proud of, one thing they struggled with, and one hope for the coming year. Through storytelling, reflection, and laughter, we celebrated the messy journey of personal growth."
+                },
+                "post_post_wedding": {
+                    "title": "2022 – The Beginning",
+                    "description": "Launched during the challenges of the pandemic, our first event was a small board game night that laid the foundation for Breakthrough. As a fun twist, each guest entered to the surprise of a personalized theme song and applause—a light-hearted way to set the tone and make everyone feel welcome from the moment they walked in."
+                }
+            }
+        }
+    },
+    "PracticalInfo": {
+        "hero_title": "Practical Information",
+        "location": {
+            "title": "Location 📍",
+            "description1": "Nearly 250 years old, the manor, Grønnessegaard Gods, is situated in Northern Sjælland, with a view of the Roskilde fjord and just minutes away from the Kattegat Sea. The manor is surrounded by farmland and forests, with the nearest town being Hundested a few kilometers (conversion for the Americans: a couple miles) west."
+        },
+        "accomodation": {
+            "title": "Accomodation 🛏️",
+            "description1": "Overnight accommodation is available at the venue with 11 rooms — 5 rooms in the main building and 6 in the guesthouse. Each room has bedding and linen for 2 people, but up to 3 people can stay in the room if you bring an extra mattress, bedding, etc. The rooms are available ranging from 950 DKK (~ $130) to 1050 DKK (~ $145), and an additional 500 DKK for additional nights. The rooms are quaint Danish farm-style, with shared bathrooms. Let us know via email or RSVP form if you are interested in booking these rooms, as we will give first priority to those coming from abroad.",
+            "recommendation_title": "The recommendations of the venue for nearby accommodation options:",
+            "reccomendations": [
+                "Byaasgaard Camping: <u><a href='https://byaasgaard.dk/goodoldglamping' target='_blank'>Byaasgaard.dk/goodoldglamping</a></u> - Luxurious tents and cabins. Distance from Grønnessegaard 2 km (1.3 mi).",
+                "Sølager Strand Camping: <u><a href='https://solagercamping.dk' target='_blank'>Solagercamping.dk</a></u> - Summerhouse and cabins. Distance from Grønnessegaard: 2 km (1.3 mi).",
+                "Hundested Kro: <u><a href='https://hundested-kro.dk' target='_blank'>Hundested-kro.dk</a></u> - Distance from Grønnessegaard: 5 km (3 mi).",
+                "Frederiksværk City Camping: <u><a href='https://fredfyldt.dk' target='_blank'>Fredfyldt.dk</a></u> - Cabins and rooms. Distance from Grønnessegaard: 7 km (5 mi).",
+                "Hotel Frederiksværk: <u><a href='https://hotelfrederiksvaerk.dk' target='_blank'>Hotelfrederiksvaerk.dk</a></u> - Distance from Grønnessegaard: 7 km (5 mi)."
+            ]
+        },
+        "dress_code": {
+            "title": "Dress Code 🎩",
+            "items": {
+                "shoes": "Comfortable, garden shoes are encouraged, as the ceremony will likely take place outdoors (weather-permitting). Bring layers for potential cold weather outside.",
+                "attire": "Black-tie formal."
+            },
+            "note": "We encourage our guests to embrace the spring season by wearing soft pastels and neutrals for the wedding (optional)."
+        },
+        "weather": {
+            "title": "Weather 🌤️",
+            "description": "Danish spring weather can be unpredictable. Average temperatures in May range from 8°C to 17°C (46°F to 63°F). Please come prepared for both sunny and rainy conditions."
+        },
+        "transportation": {
+            "title": "Transportation ✈️",
+            "paragraphs": [
+                "The venue is a 30-minute north-west drive from Hillerød, a city north of Copenhagen. Copenhagen Airport is the nearest airport to the venue.",
+                "If needed, we can arrange pickups from the Hundested train station to the venue (an 8-minute ride). Please let us know if you would like a ride in the RSVP form or via email.",
+                "From Aarhus, take the ferry to Sjællands Odde and then another ferry from Rørvig Havn to Hundested (~3.5 hours) — or drive all the way (4 hours).",
+                "There is parking available at the venue."
+            ]
+        },
+        "gift_registry": {
+            "title": "Gift Registry 🎁",
+            "presence": "Your presence at our wedding is the greatest gift, and we are so excited to celebrate this special day with you!",
+            "description1": "For those who would still like to give, we are happy with anything that feels meaningful to you. If you’d like to support us as we start this new chapter, which possibly involves moving abroad for our master's degrees, monetary contributions, as is Turkish tradition, would be especially appreciated as we plan for our future together. There will be a wishing well at the reception for cards & well wishes. Personal gifts are also welcome.",
+            "description2": "However, we want to emphasize that for guests traveling a long way to join us, your effort to be here is more than enough, and we are so grateful to have you with us on our big day - whether you are crossing the sea or the ocean!",
+            "thank_you": "Thank you for your love and generosity—it means the world to us!",
+            "button": "Contribute to Our Honeymoon Fund",
+            "tbd": "More info coming soon!"
+        }
+    },
+    "Countdown": {
+        "looking_forward": "Breakthrough 2025 kicks of in ",
+        "for_wedding": " hope to see you there!",
+        "welcome": "Breakthrough is happening today!"
+    },
+    "Footer": {
+        "date_location": "Location: (UPDATE THIS) <br><u><a href='https://maps.app.goo.gl/RYaUpwwkWgDGEe5d7' target='_blank'>",
+        "contact": "Contact us at",
+        "acknowledgements": {
+            "title": "Acknowledgements",
+            "description": "Thank you to all the participants and sponsors making these kinds of passion projects possible.",
+            "special_thanks": "Abi and Ion for this wonderful website, check out their page here: (UPDATE THIS)"
+        }
+    }
+}
+
