@@ -7,7 +7,7 @@ const Page = () => {
       <Hero
         media="/LaunchTeaser.mp4"
         mediaType="video"
-        className="h-[300px]"
+        className="h-[300px] md:h-[600px]"
       />
 
       <MaxWidthWrapper className="mt-12 mb-4">

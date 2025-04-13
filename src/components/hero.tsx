@@ -40,7 +40,7 @@ const Hero = ({
         )}
         {mediaType === "video" && (
           <video
-            className="absolute object-cover w-full h-full brightness-75 object-[50%_35%]"
+            className="absolute object-cover w-full h-full brightness-75 object-[50%_45%] md:object-[50%_50%]"
             src={media}
             autoPlay
             playsInline
