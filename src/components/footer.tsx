@@ -9,10 +9,9 @@ const Footer = () => {
       <MaxWidthWrapper className="grid grid-cols-1 md:grid-cols-2 gap-y-10">
         <div className="flex flex-col gap-y-4 w-full col-span-1">
           <h3 className="text-4xl text-white">BREAKTHROUGH</h3>
-          <p
-            className="text-white"
-            dangerouslySetInnerHTML={{ __html: t.raw("date_location") }}
-          />
+          <p className="text-white">
+            May 25, 2025, Sunday — Mantzius Culture Center
+          </p>
           <p className="text-white">
             {t("contact")}{" "}
             <a
@@ -28,9 +27,10 @@ const Footer = () => {
           <p className="text-white text-xs">
             {t("acknowledgements.description")}
           </p>
-          <p className="text-white text-xs">
-            {t("acknowledgements.special_thanks")}
-          </p>
+          <p
+            className="text-white text-xs"
+            dangerouslySetInnerHTML={{ __html: t.raw("acknowledgements.special_thanks") }}
+          />
         </div>
       </MaxWidthWrapper>
     </footer>
@@ -38,4 +38,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 

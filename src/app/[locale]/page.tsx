@@ -46,7 +46,7 @@ export default function Home() {
         subtitle={t("wedding_subtitle")}
         title={t("wedding_title")}
         button={{ href: "/rsvp", label: t("rsvp") }}
-        className="h-[700px]"
+        className="h-[600px]" // Adjust this value as needed
       />
 
       <MaxWidthWrapper className="my-16 relative">
@@ -57,8 +57,8 @@ export default function Home() {
         />
         <div className="absolute bottom-[40px] left-0 right-0 flex justify-center">
           <Button size="lg" asChild className="text-sm sm:text-lg md:text-xl lg:text-2xl px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-6 lg:py-8 shadow-xl hover:scale-105 transition-transform">
-            <Link href="/rsvp">
-              {t("rsvp")}
+            <Link href="/practical-info">
+              See Program
             </Link>
           </Button>
         </div>
@@ -109,3 +109,4 @@ export default function Home() {
     </main>
   );
 }
+

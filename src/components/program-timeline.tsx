@@ -54,93 +54,184 @@ export default function ProgramTimeline() {
 
   return (
     <div className="relative">
-      {/* Line running through timeline */}
-      <div className="absolute left-[14px] top-0 bottom-0 w-0.5 bg-gray-200 z-0" />
+      {/* Mobile view */}
+      <div className="md:hidden">
+        <div className="space-y-12">
+          {timelineData.map((item, index) => {
+            // Check if this item should have an image
+            const hasImage = index === 2 || index === 4 || index === 8; // Presentation, Lunch, After Party
 
-      {/* Timeline items */}
-      <div className="space-y-8">
-        {timelineData.map((item, index) => {
-          // Check if this item should have an image
-          const hasImage = index === 2 || index === 4 || index === 8; // Presentation, Lunch, After Party
-
-          return (
-            <div key={index} className="grid grid-cols-12 gap-6">
-              {/* Time with white background to create gap in timeline */}
-              <div className="relative col-span-1 font-mono text-xs text-primary font-semibold pt-2">
-                <div className="bg-white py-1 relative z-10 -ml-1 pl-1 pr-2">
-                  {item.time}
+            return (
+              <div key={index} className="flex flex-col space-y-4">
+                {/* Time and title */}
+                <div className="flex items-center space-x-3">
+                  <div className="bg-primary text-white text-xs font-mono font-semibold py-1 px-2 rounded-md">
+                    {item.time}
+                  </div>
+                  <h3 className="text-lg font-semibold">
+                    {item.title}
+                  </h3>
                 </div>
-              </div>
 
-              {/* Content */}
-              <div className={`pt-2 ${hasImage ? 'col-span-6' : 'col-span-11'} pr-4`}>
-                <h3 className="text-xl font-semibold mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-muted-foreground">
-                  {item.description}
-                </p>
-              </div>
-
-              {/* Images and video for specific sections */}
-              {hasImage && (
-                <div className="col-span-5 space-y-4">
-                  {/* Victor's presentation section */}
-                  {index === 2 && (
-                    <>
-                      <video
-                        src="/Victorvid.mp4"
-                        className="w-1/2 mx-auto rounded-lg shadow-md object-cover block"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        preload="metadata"
-                      />
-                      <img
-                        src="/NNLego.jpg"
-                        alt="Novo Nordisk Lego"
-                        className="w-1/2 mx-auto rounded-lg shadow-md mt-4 object-cover h-48 block"
-                      />
-                    </>
-                  )}
-
-                  {/* Lunch & Free Building section */}
-                  {index === 4 && (
-                    <div className="grid grid-cols-2 gap-4 overflow-hidden">
-                      <img
-                        src="/LegoSet1.jpg"
-                        alt="Lego Set 1"
-                        className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
-                      />
-                      <img
-                        src="/LegoSet2.jpg"
-                        alt="Lego Set 2"
-                        className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
-                      />
-                    </div>
-                  )}
-
-                  {/* After Party section */}
-                  {index === 8 && (
-                    <div className="grid grid-cols-2 gap-4 overflow-hidden">
-                      <img
-                        src="/Mantzius.JPG"
-                        alt="Mantzius"
-                        className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
-                      />
-                      <img
-                        src="/Mantzius2.JPG"
-                        alt="Mantzius 2"
-                        className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
-                      />
-                    </div>
-                  )}
+                {/* Description */}
+                <div className="pl-2 border-l-2 border-gray-200">
+                  <p className="text-muted-foreground text-sm">
+                    {item.description}
+                  </p>
                 </div>
-              )}
-            </div>
-          );
-        })}
+
+                {/* Images and video for specific sections */}
+                {hasImage && (
+                  <div className="mt-4 space-y-4">
+                    {/* Victor's presentation section */}
+                    {index === 2 && (
+                      <>
+                        <video
+                          src="/Victorvid.mp4"
+                          className="w-full rounded-lg shadow-md object-cover block"
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          preload="metadata"
+                        />
+                        <img
+                          src="/NNLego.jpg"
+                          alt="Novo Nordisk Lego"
+                          className="w-full rounded-lg shadow-md object-cover block"
+                        />
+                      </>
+                    )}
+
+                    {/* Lunch & Free Building section */}
+                    {index === 4 && (
+                      <div className="space-y-4">
+                        <img
+                          src="/LegoSet1.jpg"
+                          alt="Lego Set 1"
+                          className="w-full rounded-lg shadow-md object-cover h-48"
+                        />
+                        <img
+                          src="/LegoSet2.jpg"
+                          alt="Lego Set 2"
+                          className="w-full rounded-lg shadow-md object-cover h-48"
+                        />
+                      </div>
+                    )}
+
+                    {/* After Party section */}
+                    {index === 8 && (
+                      <div className="space-y-4">
+                        <img
+                          src="/Mantzius.JPG"
+                          alt="Mantzius"
+                          className="w-full rounded-lg shadow-md object-cover h-48"
+                        />
+                        <img
+                          src="/Mantzius2.JPG"
+                          alt="Mantzius 2"
+                          className="w-full rounded-lg shadow-md object-cover h-48"
+                        />
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Desktop view */}
+      <div className="hidden md:block relative">
+        {/* Line running through timeline */}
+        <div className="absolute left-[14px] top-0 bottom-0 w-0.5 bg-gray-200 z-0" />
+
+        {/* Timeline items */}
+        <div className="space-y-8">
+          {timelineData.map((item, index) => {
+            // Check if this item should have an image
+            const hasImage = index === 2 || index === 4 || index === 8; // Presentation, Lunch, After Party
+
+            return (
+              <div key={index} className="grid grid-cols-12 gap-6">
+                {/* Time with white background to create gap in timeline */}
+                <div className="relative col-span-1 font-mono text-xs text-primary font-semibold pt-2">
+                  <div className="bg-white py-1 relative z-10 -ml-1 pl-1 pr-2">
+                    {item.time}
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className={`pt-2 ${hasImage ? 'col-span-6' : 'col-span-11'} pr-4`}>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-muted-foreground">
+                    {item.description}
+                  </p>
+                </div>
+
+                {/* Images and video for specific sections */}
+                {hasImage && (
+                  <div className="col-span-5 space-y-4">
+                    {/* Victor's presentation section */}
+                    {index === 2 && (
+                      <>
+                        <video
+                          src="/Victorvid.mp4"
+                          className="w-1/2 mx-auto rounded-lg shadow-md object-cover block"
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          preload="metadata"
+                        />
+                        <img
+                          src="/NNLego.jpg"
+                          alt="Novo Nordisk Lego"
+                          className="w-1/2 mx-auto rounded-lg shadow-md mt-4 object-cover h-48 block"
+                        />
+                      </>
+                    )}
+
+                    {/* Lunch & Free Building section */}
+                    {index === 4 && (
+                      <div className="grid grid-cols-2 gap-4 overflow-hidden">
+                        <img
+                          src="/LegoSet1.jpg"
+                          alt="Lego Set 1"
+                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                        />
+                        <img
+                          src="/LegoSet2.jpg"
+                          alt="Lego Set 2"
+                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                        />
+                      </div>
+                    )}
+
+                    {/* After Party section */}
+                    {index === 8 && (
+                      <div className="grid grid-cols-2 gap-4 overflow-hidden">
+                        <img
+                          src="/Mantzius.JPG"
+                          alt="Mantzius"
+                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                        />
+                        <img
+                          src="/Mantzius2.JPG"
+                          alt="Mantzius 2"
+                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                        />
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

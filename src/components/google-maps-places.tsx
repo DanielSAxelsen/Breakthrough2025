@@ -45,10 +45,10 @@ const GoogleMapsPlaces = () => {
     height: "500px",
   };
 
-  // Center on Antalya
+  // Center on Johan Mantzius Vej 3
   const center = {
-    lat: 36.8980464,
-    lng: 30.6357045,
+    lat: 55.84431,
+    lng: 12.43121
   };
 
   const options = {
@@ -222,3 +222,4 @@ const GoogleMapsPlaces = () => {
 };
 
 export default GoogleMapsPlaces;
+

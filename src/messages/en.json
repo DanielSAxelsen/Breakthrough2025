@@ -8,15 +8,15 @@
         "first_name": "First Name",
         "last_name": "Last Name",
         "email": "Email",
-        "attending_ceremony_question": "Will you join us for the wedding ceremony? (UPDATE THIS)",
-        "attending_reception_question": "Will you join us for the reception dinner and dancing?",
+        "attending_ceremony_question": "Breakthrough! Yayy",
+        "attending_reception_question": "Are you staying for lunch?",
         "attending_yes": "Yes",
         "attending_no": "No",
         "guests_label": "Name of guests in your party (UPDATE THIS)",
         "add_guest": "Add Guest",
         "food_restrictions_dietary_restrictions": "Any dietary preferences/allergies?",
-        "food_restrictions_comment": "All food will be plant-based and non-alcoholic (UPDATE THIS)",
-        "bonus_question": "What is your favorite LEGO set? (UPDATE THIS)",
+        "food_restrictions_comment": "",
+        "bonus_question": "What is your favorite LEGO set? ",
         "submit": "Submit",
         "continue": "Continue",
         "submitting": "Submitting...",
@@ -24,14 +24,14 @@
         "required": "Required",
         "thank_you": "Thank you for Signing Up!",
         "thank_you_message_description": "Please provide us with more information about your arrival: time of arrival, any special requests, etc. (UPDATE THIS)",
-        "song_request": "Song Request (UPDATE THIS)",
-        "song_request_info": "link or name of song (UPDATE THIS)",
-        "extra_information": "Extra Information (UPDATE THIS)",
-        "extra_information_info": "Anything else you'd like to tell us? (UPDATE THIS)",
-        "message": "Message to the couple (UPDATE THIS)",
-        "message_info": "leave a message for the couple (UPDATE THIS)",
+        "song_request": "Song Request (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "song_request_info": "link or name of song (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "extra_information": "Extra Information (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "extra_information_info": "Anything else you'd like to tell us? (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "message": "Message to the couple (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "message_info": "leave a message for the couple (THIS SHOULD NOT SHOW UP ANYWHERE)",
         "rsvp": "Sign Up",
-        "will_you_attend": "Will you attend our wedding? (UPDATE THIS)",
+        "will_you_attend": "Breakthrough 2025 Sign-Up",
         "please_rsvp_by": "50 spots are available",
         "sorry_message": "We are sorry that you cannot make it to the event. See you next year!",
         "leave_message": "Any comments for next year?",
@@ -42,16 +42,16 @@
             "first_name_required": "First name is required",
             "last_name_required": "Last name is required",
             "email_required": "Email is required",
-            "attending_ceremony_required": "Please indicate if you will attend the ceremony (UPDATE THIS)",
-            "attending_reception_required": "Please indicate if you will attend the reception (UPDATE THIS)"
+            "attending_ceremony_required": "Please indicate if you will attend the ceremony (THIS SHOULD NOT SHOW UP ANYWHERE)",
+            "attending_reception_required": "Please indicate if you will attend the reception (THIS SHOULD NOT SHOW UP ANYWHERE)"
         },
         "optional": "Optional",
-        "needs_ride_question": "Will you need a ride from and to the Frederiksværk train station? (UPDATE THIS)",
-        "needs_ride_yes": "Yes (UPDATE THIS)",
-        "needs_ride_no": "No (UPDATE THIS)",
-        "needs_ride_unsure": "Unsure but will let you know (UPDATE THIS)",
+        "needs_ride_question": "Will you need a ride from and to the Frederiksværk train station? (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "needs_ride_yes": "Yes (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "needs_ride_no": "No (THIS SHOULD NOT SHOW UP ANYWHERE)",
+        "needs_ride_unsure": "Unsure but will let you know (THIS SHOULD NOT SHOW UP ANYWHERE)",
         "interested_in_staying_question": "Are you joining the afterparty?",
-        "interested_in_staying_info": "For more information please write to Danielsaxelsen@gmail.com. (UPDATE THIS)",
+        "interested_in_staying_info": "For more information please write to Danielsaxelsen@gmail.com",
         "interested_in_staying_yes": "Yes",
         "interested_in_staying_no": "No",
         "interested_in_staying_unsure": "Unsure but will let you know"
@@ -82,7 +82,7 @@
                 "pre_wedding": {
                     "title": "Breakthrough 2024: Project YOU",
                     "description": "A day dedicated to personal projects—bringing people together to work on something meaningful instead of doing it alone.",
-                    "subtitle": "(See more information?) (UPDATE THIS)"
+                    "subtitle": "<a href='https://www.youtube.com/watch?v=zk0DgldJSfg' target='_blank' class='underline hover:text-gray-300'>See more information</a>"
                 },
                 "post_wedding": {
                     "title": "2023 – Reflect & Celebrate",
@@ -200,15 +200,29 @@
         "welcome": "Breakthrough is happening today!"
     },
     "Footer": {
-        "date_location": "Location: (UPDATE THIS) <br><u><a href='https://maps.app.goo.gl/RYaUpwwkWgDGEe5d7' target='_blank'>",
-        "contact": "Contact us at",
         "acknowledgements": {
             "title": "Acknowledgements",
             "description": "Thank you to all the participants and sponsors making these kinds of passion projects possible.",
-            "special_thanks": "Abi and Ion for this wonderful website, check out their page here: (UPDATE THIS)"
-        }
+            "special_thanks": "Special thanks to <a href='https://www.linkedin.com/in/chetraru-ion/' target='_blank' class='underline hover:text-gray-300'>Ion Chetraru</a> and <a href='https://www.linkedin.com/in/irene-abigail-sotomayor-mu%C3%B1oz-984556248/' target='_blank' class='underline hover:text-gray-300'>Abigail Sotomayor</a> for the framework and support for this awesome website."
+        },
+        "contact": "Contact us at"
     }
 }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
