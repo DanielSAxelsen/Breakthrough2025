@@ -33,19 +33,22 @@ const Hero = ({
       )}>
         {mediaType === "image" && (
           <img
-            className="absolute object-cover object-center w-full h-full brightness-75"
+            className="absolute object-cover w-full h-full brightness-75 object-[50%_35%]"
             src={media}
             alt={title}
           />
         )}
         {mediaType === "video" && (
           <video
-            className="absolute object-cover object-center w-full h-full brightness-75"
+            className="absolute object-cover w-full h-full brightness-75 object-[50%_35%]"
             src={media}
             autoPlay
             playsInline
             muted
             loop
+            onLoadedMetadata={(e) => {
+              e.currentTarget.currentTime = 0.3;
+            }}
           />
         )}
         <div className="z-10 relative text-white flex flex-col justify-center items-center h-full gap-y-4 px-4 text-center">
@@ -60,4 +63,5 @@ const Hero = ({
 };
 
 export default Hero;
+
 

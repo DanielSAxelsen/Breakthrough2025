@@ -1,52 +1,54 @@
-// Temporarily using hardcoded data instead of translations
+import { useTranslations } from "next-intl";
 
 export default function ProgramTimeline() {
-  // Define hardcoded timeline data for testing
+  const t = useTranslations("PracticalInfo.program.schedule");
+
+  // Define timeline data using translations
   const timelineData = [
     {
-      time: "9:30",
-      title: "Breakfast & Catch-up",
-      description: "For the coffee lovers, the slow risers, and the morning-fresh—buns, tea, and good company await the early birds."
+      time: t("breakfast.time"),
+      title: t("breakfast.title"),
+      description: t("breakfast.description")
     },
     {
-      time: "10:00",
-      title: "Kick-off & Welcome",
-      description: "This is where it all begins—so don't be late! We'll set the tone for a fun and engaging day with a bit of teambuilding to get everyone connected."
+      time: t("kickoff.time"),
+      title: t("kickoff.title"),
+      description: t("kickoff.description")
     },
     {
-      time: "10:20",
-      title: "Victor Winsteén: Lean – The Industry's Answer to Efficiency & Teamwork",
-      description: "Lean isn't just a corporate mantra—it's a mindset that empowers teams to solve problems together and drive continuous improvement. With hands-on experience optimizing production at Novo Nordisk, Victor brings a fresh and engaging perspective on how Lean principles can boost business performance and even apply to everyday life."
+      time: t("presentation.time"),
+      title: t("presentation.title"),
+      description: t("presentation.description")
     },
     {
-      time: "11:00",
-      title: "Workshop: Welcome to the LEGO Factory",
-      description: "Time to build, improve, and repeat. Experience continuous improvement through hands-on challenges that bring Lean principles to life."
+      time: t("workshop1.time"),
+      title: t("workshop1.title"),
+      description: t("workshop1.description")
     },
     {
-      time: "12:00",
-      title: "Lunch & Free Building",
-      description: "Refuel with a tasty lunch and explore the LEGO sets at your own pace. Whether you're building something bold or just playing around—this is your creative space."
+      time: t("lunch.time"),
+      title: t("lunch.title"),
+      description: t("lunch.description")
     },
     {
-      time: "13:30",
-      title: "Workshop: Teamwork Unplugged – The Deep Dive",
-      description: "This is the experimental part of the day. Together, we'll explore what makes great teamwork tick—through open conversation, reflection, and shared observations."
+      time: t("workshop2.time"),
+      title: t("workshop2.title"),
+      description: t("workshop2.description")
     },
     {
-      time: "14:00",
-      title: "Free Building / LEGO Team Exercises",
-      description: "The afternoon flows with the mood of the room. Keep building freely, or dive into exercises from the LEGO Events Toolbox—fun, hands-on activities designed to strengthen collaboration, creativity, and communication."
+      time: t("freeBuilding.time"),
+      title: t("freeBuilding.title"),
+      description: t("freeBuilding.description")
     },
     {
-      time: "15:30",
-      title: "Wrapping up",
-      description: "We'll close the program with key reflections, takeaways, and feedback from the day. But the fun doesn't have to end here..."
+      time: t("closing.time"),
+      title: t("closing.title"),
+      description: t("closing.description")
     },
     {
-      time: "16:00",
-      title: "After Party & Dinner",
-      description: "Beers, bricks, and good vibes. We'll move to a nearby venue to unwind together. And for those who'd like to join, we'll have dinner at Mantzius Restaurant at 18:00 after clean-up."
+      time: t("afterParty.time"),
+      title: t("afterParty.title"),
+      description: t("afterParty.description")
     }
   ];
 
@@ -86,19 +88,23 @@ export default function ProgramTimeline() {
                     {/* Victor's presentation section */}
                     {index === 2 && (
                       <>
-                        <video
-                          src="/Victorvid.mp4"
-                          className="w-full rounded-lg shadow-md object-cover block"
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          preload="metadata"
-                        />
+                        <div className="flex justify-center">
+                          <div className="w-32 h-32 rounded-full overflow-hidden shadow-md">
+                            <video
+                              src="/Victorvid.mp4"
+                              className="w-full h-full object-cover"
+                              autoPlay
+                              loop
+                              muted
+                              playsInline
+                              preload="metadata"
+                            />
+                          </div>
+                        </div>
                         <img
-                          src="/NNLego.jpg"
+                          src="/NNLego.png"
                           alt="Novo Nordisk Lego"
-                          className="w-full rounded-lg shadow-md object-cover block"
+                          className="w-full rounded-lg shadow-md object-cover block mt-4"
                         />
                       </>
                     )}
@@ -188,7 +194,7 @@ export default function ProgramTimeline() {
                           preload="metadata"
                         />
                         <img
-                          src="/NNLego.jpg"
+                          src="/NNLego.png"
                           alt="Novo Nordisk Lego"
                           className="w-1/2 mx-auto rounded-lg shadow-md mt-4 object-cover h-48 block"
                         />

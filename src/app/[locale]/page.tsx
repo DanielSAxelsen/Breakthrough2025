@@ -78,6 +78,7 @@ export default function Home() {
           description={t("stories.melike.story")}
           picture={{ alt: "Melike's story", src: "/stories_melike_story.png" }}
           title={t("stories.melike.title")}
+          isFirst={true}
         />
         <GridItem
           description={t("stories.jonas.story")}

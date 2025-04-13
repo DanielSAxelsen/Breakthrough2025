@@ -42,8 +42,8 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <link rel="icon" href="/stories_melike_story.png" />
-        <link rel="shortcut icon" href="/stories_melike_story.png" />
+        <link rel="icon" href="/stories_melike_story.png" sizes="16x16" />
+        <link rel="shortcut icon" href="/stories_melike_story.png" sizes="16x16" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}>
         <QueryClientProvider>
