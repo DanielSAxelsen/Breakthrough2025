@@ -63,16 +63,16 @@
         "wedding_subtitle": "May 25, 2025, Sunday — Mantzius Culture Center",
         "stories": {
             "melike": {
-                "title": "Breakthrough's Beginning",
-                "story": "Breakthrough started as a spontaneous idea—part joke, part creative spark—but quickly grew into something meaningful. It became a platform to create unique experiences, built around yearly themes that challenge how we learn, reflect, and connect. From a cozy board game night to full-day workshops, each Breakthrough is designed to be fun, inspiring, and just a little bit different."
+                "title": "A Different Kind of Celebration",
+                "story": "Breakthrough began with a simple wish: to create something worth gathering for—something outside of birthdays, graduations, and the big obvious milestones. We wanted to shine a light on the quieter moments that shape us: the personal projects that finally get finished, the hard conversations we learn from, or the shift in mindset that no one sees but you. These are the breakthroughs that truly matter. And we believe they deserve a space."
             },
             "jonas": {
-                "title": "What We Believe",
-                "story": "We think the small victories deserve a spotlight. While most celebrations honor birthdays or major milestones, Breakthrough focuses on the everyday wins—the personal projects, the tough lessons, the quiet growth. It’s a space to celebrate those moments, surrounded by people who are just as curious and reflective. We’re a community of learners who explore new ideas together. Each event blends play and purpose, mixing hands-on activities with meaningful takeaways. It’s a professional party—equal parts celebration and inspiration."
+                "title": "Where Ideas Turn Into Experiences",
+                "story": "Each year, Breakthrough takes on a new theme and transforms it into a one-day event that's part social experiment, part creative challenge. From board games to LEGO, from deep talks to unexpected activities, the format changes—but the feeling stays the same. It's a space where curiosity leads the way, where people come not just to be inspired, but to build something together—whether that's ideas, confidence, or connection."
             },
             "our_story": {
-                "title": "How It Works",
-                "story": "Every year, we host one event with a new theme—something explorative, fun, and thoughtful. [This year's event] invites participants to engage, learn, and walk away with something valuable. We often feature an external expert or highlight someone from our own community to spark new ideas and conversations. Anyone is welcome—especially if you're open-minded, eager to learn, or just looking for a fresh way to celebrate growth."
+                "title": "For the Curious and Open-Minded",
+                "story": "Breakthrough is free and open to anyone who wants to explore new ways of learning, reflecting, and growing—with others. We're a growing community of curious minds, fueled by thoughtful themes, local collaboration, and a shared belief that the small stuff is actually the big stuff. If you're the kind of person who loves fresh perspectives, honest conversations, and playful ways to grow—then we'd love to have you."
             }
         },
         "program": {
@@ -137,7 +137,7 @@
         "gift_registry": {
             "title": "Gift Registry 🎁",
             "presence": "Your presence at our wedding is the greatest gift, and we are so excited to celebrate this special day with you!",
-            "description1": "For those who would still like to give, we are happy with anything that feels meaningful to you. If you’d like to support us as we start this new chapter, which possibly involves moving abroad for our master's degrees, monetary contributions, as is Turkish tradition, would be especially appreciated as we plan for our future together. There will be a wishing well at the reception for cards & well wishes. Personal gifts are also welcome.",
+            "description1": "For those who would still like to give, we are happy with anything that feels meaningful to you. If you'd like to support us as we start this new chapter, which possibly involves moving abroad for our master's degrees, monetary contributions, as is Turkish tradition, would be especially appreciated as we plan for our future together. There will be a wishing well at the reception for cards & well wishes. Personal gifts are also welcome.",
             "description2": "However, we want to emphasize that for guests traveling a long way to join us, your effort to be here is more than enough, and we are so grateful to have you with us on our big day - whether you are crossing the sea or the ocean!",
             "thank_you": "Thank you for your love and generosity—it means the world to us!",
             "button": "Contribute to Our Honeymoon Fund",
@@ -203,26 +203,8 @@
         "acknowledgements": {
             "title": "Acknowledgements",
             "description": "Thank you to all the participants and sponsors making these kinds of passion projects possible.",
-            "special_thanks": "Special thanks to <a href='https://www.linkedin.com/in/chetraru-ion/' target='_blank' class='underline hover:text-gray-300'>Ion Chetraru</a> and <a href='https://www.linkedin.com/in/irene-abigail-sotomayor-mu%C3%B1oz-984556248/' target='_blank' class='underline hover:text-gray-300'>Abigail Sotomayor</a> for the framework and support for this awesome website."
+            "special_thanks": "Special thanks to <a href='https://www.linkedin.com/in/chetraru-ion/' target='_blank' class='underline hover:text-gray-300'>Ion Chetraru</a> and <a href='https://www.linkedin.com/in/irene-abigail-sotomayor-mu%C3%B1oz-984556248/' target='_blank' class='underline hover:text-gray-300'>Abigail Sotomayor</a> for the framework and support for this wonderful website."
         },
         "contact": "Contact us at"
     }
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

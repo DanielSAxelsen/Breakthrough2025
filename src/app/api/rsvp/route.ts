@@ -51,7 +51,7 @@ export async function POST(req: Request) {
         // Only create calendar event if attending
         let calendarAttachment;
         const event = {
-            start: [2025, 5, 25, 9, 30], // May 25, 2025, 9:30
+            start: [2025, 5, 25, 7, 30], // 7:30 UTC = 9:30 CEST
             duration: { hours: 6, minutes: 0 },
             title: 'Breakthrough 2025',
             description: 'Building Lego, Improving Teamwork',
@@ -89,7 +89,7 @@ export async function POST(req: Request) {
                 <div style="background-color: #f7fafc; border-radius: 8px; padding: 20px; margin: 20px 0;">
                     <h2 style="color: #4a5568; margin-bottom: 15px;">Event Details</h2>
                     <p style="margin: 5px 0;">📅 Date: May 25, 2025</p>
-                    <p style="margin: 5px 0;">🕔 Time: 10:00</p>
+                    <p style="margin: 5px 0;">🕔 Time: 9:30</p>
                     <p style="margin: 5px 0;">📍 Location: Johan Mantzius Vej 7a, 3460 Birkerød, Danmark</p>
                 </div>
                 
@@ -129,3 +129,5 @@ export async function POST(req: Request) {
         return NextResponse.json({ message: "Something went wrong." }, { status: 500 });
     }
 }
+
+

@@ -49,18 +49,22 @@ export default function Home() {
         className="h-[600px]" // Adjust this value as needed
       />
 
-      <MaxWidthWrapper className="my-16 relative">
+      <MaxWidthWrapper className="mt-16 mb-24 relative">
         <img
           src="/Event 2025.png"
           alt="Event 2025"
           className="w-full h-auto rounded-lg shadow-lg"
         />
-        <div className="absolute bottom-[40px] left-0 right-0 flex justify-center">
-          <Button size="lg" asChild className="text-sm sm:text-lg md:text-xl lg:text-2xl px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-6 lg:py-8 shadow-xl hover:scale-105 transition-transform">
-            <Link href="/practical-info">
-              See Program
-            </Link>
-          </Button>
+        <div className="absolute bottom-[-100px] left-0 right-0 flex justify-center">
+          <div className="relative animate-pulse-subtle">
+            <div className="absolute -inset-1 bg-gradient-to-r from-primary/40 via-primary/60 to-primary/40 rounded-lg blur-[2px] opacity-70 group-hover:opacity-90 transition duration-500 group-hover:duration-200 animate-gradient-xy"></div>
+            <Button size="lg" asChild className="relative text-sm sm:text-lg md:text-xl lg:text-2xl px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-6 lg:py-8 shadow-xl hover:scale-105 transition-transform bg-primary hover:bg-primary/90 group">
+              <Link href="/practical-info" className="flex items-center gap-2">
+                View Program
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 transition-transform group-hover:translate-x-1 animate-bounce-subtle"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+              </Link>
+            </Button>
+          </div>
         </div>
       </MaxWidthWrapper>
 
@@ -106,6 +110,28 @@ export default function Home() {
           </Link>
         </Button>
       </div>
+
+      <div className="h-16 w-full" />
+
+      {/* Sponsor Section */}
+      <MaxWidthWrapper className="mt-0 mb-16 relative">
+        <div className="flex flex-col items-center">
+          <div className="relative max-w-3xl mx-auto">
+            <img
+              src="/Sponsor.png"
+              alt="Sponsor"
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+            <div className="absolute right-4 bottom-4 md:right-8 md:bottom-8">
+              <Button asChild size="lg" className="px-6 py-3 text-base shadow-xl hover:scale-105 transition-transform">
+                <a href="mailto:Danielsaxelsen@gmail.com?subject=Breakthrough%202025%20Sponsorship%20Inquiry">
+                  Contact Us
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </MaxWidthWrapper>
     </main>
   );
 }
