@@ -10,19 +10,52 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ... your colors config
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+      },
+      borderColor: {
+        DEFAULT: "hsl(var(--border))"
       },
       borderRadius: {
-        // ... your borderRadius config
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
         "pulse-subtle": {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.05)" },
-        },
-        "bounce-subtle": {
-          "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(3px)" }
         },
         "gradient-xy": {
           "0%, 100%": {
@@ -33,16 +66,11 @@ const config: Config = {
             "background-size": "200% 200%",
             "background-position": "right center"
           }
-        },
-        "pulse-slow": {
-          "0%, 100%": { opacity: "0.75" },
-          "50%": { opacity: "0.9" }
         }
       },
       animation: {
         "pulse-subtle": "pulse-subtle 1.2s ease-in-out infinite",
-        "gradient-xy": "gradient-xy 2s ease infinite",
-        "pulse-slow": "pulse-slow 3s ease-in-out infinite"
+        "gradient-xy": "gradient-xy 2s ease infinite"
       }
     }
   },
@@ -50,4 +78,9 @@ const config: Config = {
 };
 
 export default config;
+
+
+
+
+
 
