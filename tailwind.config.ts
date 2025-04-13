@@ -59,7 +59,7 @@ const config: Config = {
       keyframes: {
         "pulse-subtle": {
           "0%, 100%": { transform: "scale(1)" },
-          "50%": { transform: "scale(1.04)" },
+          "50%": { transform: "scale(1.05)" },
         },
         "bounce-subtle": {
           "0%, 100%": { transform: "translateX(0)" },
@@ -77,8 +77,15 @@ const config: Config = {
         }
       },
       animation: {
-        "pulse-subtle": "pulse-subtle 1.5s ease-in-out infinite",
-        "gradient-xy": "gradient-xy 2s ease infinite"
+        "pulse-subtle": "pulse-subtle 1.2s ease-in-out infinite",
+        "gradient-xy": "gradient-xy 2s ease infinite",
+        "pulse-slow": "pulse-slow 3s ease-in-out infinite"
+      },
+      keyframes: {
+        "pulse-slow": {
+          "0%, 100%": { opacity: "0.75" },
+          "50%": { opacity: "0.9" }
+        }
       }
   	}
   },

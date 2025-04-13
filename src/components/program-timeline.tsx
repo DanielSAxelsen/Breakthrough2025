@@ -184,51 +184,55 @@ export default function ProgramTimeline() {
                     {/* Victor's presentation section */}
                     {index === 2 && (
                       <>
-                        <video
-                          src="/Victorvid.mp4"
-                          className="w-1/2 mx-auto rounded-lg shadow-md object-cover block"
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          preload="metadata"
-                        />
+                        <div className="flex justify-center">
+                          <div className="w-40 h-40 rounded-full overflow-hidden shadow-md">
+                            <video
+                              src="/Victorvid.mp4"
+                              className="w-full h-full object-cover"
+                              autoPlay
+                              loop
+                              muted
+                              playsInline
+                              preload="metadata"
+                            />
+                          </div>
+                        </div>
                         <img
                           src="/NNLego.png"
                           alt="Novo Nordisk Lego"
-                          className="w-1/2 mx-auto rounded-lg shadow-md mt-4 object-cover h-48 block"
+                          className="w-3/4 mx-auto rounded-lg shadow-md mt-6 object-cover h-32 block"
                         />
                       </>
                     )}
 
                     {/* Lunch & Free Building section */}
                     {index === 4 && (
-                      <div className="grid grid-cols-2 gap-4 overflow-hidden">
+                      <div className="flex flex-col space-y-4">
                         <img
                           src="/LegoSet1.jpg"
                           alt="Lego Set 1"
-                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                          className="w-3/4 mx-auto rounded-lg shadow-md object-cover h-40"
                         />
                         <img
                           src="/LegoSet2.jpg"
                           alt="Lego Set 2"
-                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                          className="w-3/4 mx-auto rounded-lg shadow-md object-cover h-40"
                         />
                       </div>
                     )}
 
                     {/* After Party section */}
                     {index === 8 && (
-                      <div className="grid grid-cols-2 gap-4 overflow-hidden">
+                      <div className="flex flex-col space-y-4">
                         <img
                           src="/Mantzius.JPG"
                           alt="Mantzius"
-                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                          className="w-3/4 mx-auto rounded-lg shadow-md object-cover h-40"
                         />
                         <img
                           src="/Mantzius2.JPG"
                           alt="Mantzius 2"
-                          className="w-full rounded-lg shadow-md object-cover h-44 transform scale-110"
+                          className="w-3/4 mx-auto rounded-lg shadow-md object-cover h-40"
                         />
                       </div>
                     )}
