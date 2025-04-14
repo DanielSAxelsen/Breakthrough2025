@@ -42,7 +42,7 @@ export async function POST(req: Request) {
             en: {
                 subject: "Sign Up Confirmation - Breakthruogh 2025",
                 greeting: `Dear ${firstName}, \n`,
-                attending: "We have received your signup and look forward to seeing you at Mantzius, Birkerød on May 25, 2025! On our website, you can see other practical information.",
+                attending: "We have received your signup and look forward to seeing you at Mantzius - Johan Mantzius Vej 3, 3460 Birkerød on May 25, 2025! On our website, you can see other practical information.",
                 signature: "Best, \nDaniel Axelsen"
             },
         };
@@ -51,11 +51,11 @@ export async function POST(req: Request) {
         // Only create calendar event if attending
         let calendarAttachment;
         const event = {
-            start: [2025, 5, 25, 7, 30], // 7:30 UTC = 9:30 CEST
+            start: [2025, 5, 25, 8, 0], // 8:00 UTC = 10:00 CEST
             duration: { hours: 6, minutes: 0 },
             title: 'Breakthrough 2025',
             description: 'Building Lego, Improving Teamwork',
-            location: 'Johan Mantzius Vej 7a, 3460 Birkerød, Danmark',
+            location: 'Mantzius - Johan Mantzius Vej 3, 3460 Birkerød, Danmark',
             url: 'https://breakthrough2025.vercel.app/',
             status: 'CONFIRMED',
         } as EventAttributes;
@@ -77,11 +77,11 @@ export async function POST(req: Request) {
                 <h1 style="color: #4a5568; text-align: center; margin-bottom: 30px;">
                     ${messages[locale as keyof typeof messages].subject}
                 </h1>
-                
+
                 <p style="font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
                     ${messages[locale as keyof typeof messages].greeting}
                 </p>
-                
+
                 <p style="font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
                     ${messages[locale as keyof typeof messages].attending}
                 </p>
@@ -89,10 +89,10 @@ export async function POST(req: Request) {
                 <div style="background-color: #f7fafc; border-radius: 8px; padding: 20px; margin: 20px 0;">
                     <h2 style="color: #4a5568; margin-bottom: 15px;">Event Details</h2>
                     <p style="margin: 5px 0;">📅 Date: May 25, 2025</p>
-                    <p style="margin: 5px 0;">🕔 Time: 9:30</p>
-                    <p style="margin: 5px 0;">📍 Location: Johan Mantzius Vej 7a, 3460 Birkerød, Danmark</p>
+                    <p style="margin: 5px 0;">🕔 Time: 10:00</p>
+                    <p style="margin: 5px 0;">📍 Location: Mantzius - Johan Mantzius Vej 3, 3460 Birkerød, Danmark</p>
                 </div>
-                
+
                 <p style="font-size: 16px; line-height: 1.6; margin-top: 30px;" >
                     ${messages[locale as keyof typeof messages].signature}
                 </p>

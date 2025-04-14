@@ -60,7 +60,7 @@
         "wedding_toptitle": "Build Lego, Improve Teamwork",
         "wedding_title": "BRICKTHROUGH 2025",
         "rsvp": "Sign Up",
-        "wedding_subtitle": "May 25, 2025, Sunday — Mantzius Culture Center",
+        "wedding_subtitle": "May 25, 2025, Sunday, 10:00 — Mantzius - Johan Mantzius Vej 3, 3460 Birkerød",
         "stories": {
             "melike": {
                 "title": "A Different Kind of Celebration",
@@ -205,6 +205,7 @@
             "description": "Thank you to all the participants and sponsors making these kinds of passion projects possible.",
             "special_thanks": "Special thanks to <a href='https://www.linkedin.com/in/chetraru-ion/' target='_blank' class='underline hover:text-gray-300'>Ion Chetraru</a> and <a href='https://www.linkedin.com/in/irene-abigail-sotomayor-mu%C3%B1oz-984556248/' target='_blank' class='underline hover:text-gray-300'>Abigail Sotomayor</a> for the framework and support for this wonderful website."
         },
-        "contact": "Contact us at"
+        "contact": "Contact us at",
+        "follow_instagram": "Follow us on Instagram"
     }
 }

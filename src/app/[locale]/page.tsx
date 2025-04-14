@@ -51,10 +51,18 @@ export default function Home() {
       />
 
       <MaxWidthWrapper className="mt-16 mb-24 relative">
+        {/* Mobile image */}
         <img
           src="/Event 2025.png"
           alt="Event 2025"
-          className="w-full h-auto rounded-lg shadow-lg"
+          className="w-full h-auto rounded-lg shadow-lg md:hidden"
+        />
+
+        {/* Desktop image */}
+        <img
+          src="/Event2025Desktop.png"
+          alt="Event 2025"
+          className="hidden md:block w-full h-auto rounded-lg shadow-lg"
         />
         <div className="absolute bottom-[-100px] left-0 right-0 flex justify-center">
           <div className="relative animate-pulse-subtle">
